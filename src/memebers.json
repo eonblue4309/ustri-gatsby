@@ -1,0 +1,135 @@
+{
+    "Michael Alexanian": {
+        "gengo": "Gennan Buhaku",
+        "rank": "8th degree",
+        "titles": [
+            "USTRI General Manager",
+            "Genwakai Shihan (Head Instructor)",
+            "USTRI Gengo Hojisha no Kai Kaicho (President)"
+        ],
+        "instructor": true,
+        "email": "alexgennan@att.net",
+        "tags": [
+            "honbu"
+        ]
+    },
+    "Dianne Alexanian": {
+        "gengo": "Genan Kouga",
+        "rank": "5th degree",
+        "titles": [
+            "Genwakai Jokyo (Assistant Professor)",
+            "USTRI Gengo Hojisha no Kai Fuku Kaicho (Vice President)"
+        ],
+        "email": "alexgennan@att.net",
+        "tags": [
+            "honbu"
+        ]
+    },
+    "Thomas Hufnagel": {
+        "gengo": "Gensui",
+        "rank": "6th degree",
+        "title": [
+            "USTRI Director of Operations",
+            "USTRI Honbu Branch Manager",
+            "USTRI Instructor",
+            "USTRI Gengo Hojisha no Kai Executive"
+        ],
+        "email": "hufnagelt@gmail.com",
+        "instructor": true,
+        "tags": [
+            "honbu"
+        ]
+    },
+    "William Smith": {
+        "gengo": "Genka",
+        "rank": "6th degree",
+        "title": [
+            "USTRI Honbu Assistant Branch Manager",
+            "USTRI Instructor",
+            "USTRI Gengo Hojisha no Kai Executive"
+        ],
+        "email": "alexgennan@att.net",
+        "instructor": true,
+        "tags": [
+            "honbu"
+        ]
+    },
+    "Douglas Jarrett": {
+        "gengo": "Genchi",
+        "rank": "6th degree",
+        "title": [
+            "USTRI Honbu Assistant Branch Manager",
+            "USTRI Instructor",
+            "USTRI Gengo Hojisha no Kai Executive"
+        ],
+        "email": "alexgennan@att.net",
+        "instructor": true,
+        "tags": [
+            "honbu"
+        ]
+    },
+    "Scott Sier": {
+        "gengo": "Genfu",
+        "rank": "6th degree",
+        "title": [
+            "USTRI Southeast Michigan Branch Manager",
+            "USTRI Instructor",
+            "USTRI Gengo Hojisha no Kai Executive"
+        ],
+        "email": "spsier@gmail.com",
+        "instructor": true,
+        "tags": [
+            "southeast michigan"
+        ]
+    },
+    "Dan Mordan": {
+        "gengo": "Genzan",
+        "rank": "6th degree",
+        "title": [
+            "USTRI Southeast Michigan Assistant Branch Manager",
+            "USTRI Instructor",
+            "USTRI Gengo Hojisha no Kai Executive"
+        ],
+        "email": "genzan@ustamiyaryu.org",
+        "instructor": true,
+        "tags": [
+            "southeast michigan"
+        ]
+    },
+    "Joseph Smith": {
+        "gengo": "Genko",
+        "rank": "5th degree",
+        "title": [
+            "USTRI Assistant Instructor",
+            "USTRI Gengo Hojisha no Kai Executive"
+        ],
+        "instructor": true,
+        "tags": [
+            "honbu"
+        ]
+    },
+    "Daniel Wung": {
+        "gengo": "Genkou",
+        "rank": "5th degree",
+        "title": [
+            "USTRI Assistant Instructor",
+            "USTRI Gengo Hojisha no Kai Executive"
+        ],
+        "instructor": true,
+        "tags": [
+            "honbu"
+        ]
+    },
+    "James Russell": {
+        "gengo": "Gennetsu",
+        "rank": "5th degree",
+        "title": [
+            "USTRI Assistant Instructor",
+            "USTRI Gengo Hojisha no Kai Executive"
+        ],
+        "instructor": true,
+        "tags": [
+            "southeast michigan"
+        ]
+    }
+}
