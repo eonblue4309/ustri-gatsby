@@ -1,6 +1,6 @@
 import React from "react"
 
-export default function EastLansing() {
+export default function SoutheastMichigan() {
     return (
         <div>
             <Details />
@@ -11,8 +11,8 @@ export default function EastLansing() {
 export function Details() {
     return (
         <section>
-            <h2>East Lansing, Michigan</h2>
-            <h3>Michigan Honbu Dojo</h3>
+            <h2>Macomb, Michigan</h2>
+            <h3>Southeast Michigan Branch Dojo</h3>
         </section>
     )
 }

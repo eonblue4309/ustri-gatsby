@@ -28,7 +28,7 @@
     "Thomas Hufnagel": {
         "gengo": "Gensui",
         "rank": "6th degree",
-        "title": [
+        "titles": [
             "USTRI Director of Operations",
             "USTRI Honbu Branch Manager",
             "USTRI Instructor",
@@ -43,7 +43,7 @@
     "William Smith": {
         "gengo": "Genka",
         "rank": "6th degree",
-        "title": [
+        "titles": [
             "USTRI Honbu Assistant Branch Manager",
             "USTRI Instructor",
             "USTRI Gengo Hojisha no Kai Executive"
@@ -57,7 +57,7 @@
     "Douglas Jarrett": {
         "gengo": "Genchi",
         "rank": "6th degree",
-        "title": [
+        "titles": [
             "USTRI Honbu Assistant Branch Manager",
             "USTRI Instructor",
             "USTRI Gengo Hojisha no Kai Executive"
@@ -71,7 +71,7 @@
     "Scott Sier": {
         "gengo": "Genfu",
         "rank": "6th degree",
-        "title": [
+        "titles": [
             "USTRI Southeast Michigan Branch Manager",
             "USTRI Instructor",
             "USTRI Gengo Hojisha no Kai Executive"
@@ -85,7 +85,7 @@
     "Dan Mordan": {
         "gengo": "Genzan",
         "rank": "6th degree",
-        "title": [
+        "titles": [
             "USTRI Southeast Michigan Assistant Branch Manager",
             "USTRI Instructor",
             "USTRI Gengo Hojisha no Kai Executive"
@@ -99,7 +99,7 @@
     "Joseph Smith": {
         "gengo": "Genko",
         "rank": "5th degree",
-        "title": [
+        "titles": [
             "USTRI Assistant Instructor",
             "USTRI Gengo Hojisha no Kai Executive"
         ],
@@ -111,7 +111,7 @@
     "Daniel Wung": {
         "gengo": "Genkou",
         "rank": "5th degree",
-        "title": [
+        "titles": [
             "USTRI Assistant Instructor",
             "USTRI Gengo Hojisha no Kai Executive"
         ],
@@ -123,7 +123,7 @@
     "James Russell": {
         "gengo": "Gennetsu",
         "rank": "5th degree",
-        "title": [
+        "titles": [
             "USTRI Assistant Instructor",
             "USTRI Gengo Hojisha no Kai Executive"
         ],

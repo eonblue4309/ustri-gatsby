@@ -71,12 +71,14 @@ function Locations() {
         <h4>East Lansing, Michigan</h4>
         <h5>Michigan Honbu Dojo</h5>
         <p>The Michigan Honbu dojo is the headquarters for Tamiya Ryu Iajiutsu operations in the United States</p>
+        <LearnMore to="east-lansing-michigan-honbu-dojo" />
       </div>
 
       <div>
         <h4>Macomb, Michigan</h4>
         <h5>Southeast Michigan Dojo</h5>
         <p>The Southeast Michigan Branch dojo holds class at the Macomb Township Parks &amp; Recreation Center.</p>
+        <LearnMore to="southeast-michigan-branch-dojo" />
       </div>
     </section>
   )
