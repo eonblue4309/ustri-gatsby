@@ -7,7 +7,8 @@ const style = {
     color: "#212121",
     border: "4px solid currentColor",
     textDecoration: "none",
-    fontWeight: "bold"
+    fontWeight: "bold",
+    display: "inline-block"
 }
 
 export default function LearnMore({ to }) {
