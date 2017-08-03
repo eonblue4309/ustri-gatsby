@@ -18,13 +18,13 @@ const links = {
 
 function Header() {
   return (
-    <header style={{ background: '#212121', color: 'white' }}>
+    <header style={{ background: '#212121', color: 'white', padding: "1rem" }}>
       <h1 style={{ margin: 0 }}>
         <Link to="/" style={styles.nav}>United States Tamiya Ryu Iaijutsu</Link>
       </h1>
       <nav>
         {Object.keys(links).map(link =>
-          <Link key={link} to={links[link]} style={styles.nav}>{link}</Link>
+          <Link key={link} to={links[link]} className="main-nav">{link}</Link>
         )}
       </nav>
     </header>
