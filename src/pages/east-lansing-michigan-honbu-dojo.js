@@ -2,7 +2,7 @@ import React from "react"
 
 export default function EastLansing() {
     return (
-        <div>
+        <div className="content">
             <Details />
         </div>
     )

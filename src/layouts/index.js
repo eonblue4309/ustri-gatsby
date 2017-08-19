@@ -5,10 +5,6 @@ import Helmet from 'react-helmet'
 
 import './index.css'
 
-const styles = {
-  nav: { color: "inherit", textDecoration: 'none' }
-}
-
 const links = {
   "Training Information": "/training-information",
   "History": "/history",
@@ -18,15 +14,15 @@ const links = {
 
 function Header() {
   return (
-    <header style={{ background: '#212121', color: 'white', padding: "1rem" }}>
-      <h1 style={{ margin: 0 }}>
-        <Link to="/" style={styles.nav}>United States Tamiya Ryu Iaijutsu</Link>
-      </h1>
-      <nav>
+    <header className="main-header hightlight-text">
+      <nav className="main-nav">
+        <Link to="/" className="site-nav">United States Tamiya Ryu Iaijutsu</Link>
         {Object.keys(links).map(link =>
-          <Link key={link} to={links[link]} className="main-nav">{link}</Link>
+          <Link key={link} to={links[link]} className="site-nav">{link}</Link>
         )}
       </nav>
+      <div className="masthead">
+      </div>
     </header>
   )
 }

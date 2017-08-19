@@ -13,7 +13,7 @@ export default function TrainingInformation() {
       return obj;
     }, {})
   return (
-    <div>
+    <div className="content">
       <Introduction />
       <Locations />
       <Instructors instructors={instructors} />

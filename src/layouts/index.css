@@ -1,9 +1,13 @@
+/* font-family: 'Merriweather', serif;
+font-family: 'Oswald', sans-serif; */
+
 html {
-  font-family: sans-serif;
+  font-family: "Merriweather", sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   font-size: 16px;
   line-height: 1.5;
+  color: #212121;
 }
 
 @media screen and (min-width: 500px){
@@ -12,8 +16,45 @@ html {
   }
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.hightlight-text {
+  font-family: "Oswald", sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 3.25rem;
+  /* TODO scale these down for mobile */
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 1.25rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+  line-height: 1.25rem;
+}
+
+h4,
+h5 {
+  font-size: 1.125rem;
+  line-height: 1.222222rem;
+}
+
 body {
   margin: 0;
+  background: #e0e0e0;
+}
+
+p {
+  max-width: 40em;
 }
 
 p a {
@@ -32,6 +73,16 @@ p a:focus {
 }
 
 .main-nav {
+  padding: 1rem 0.5rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.main-nav > *:first-child {
+  margin-right: auto;
+}
+
+.site-nav {
   color: inherit;
   text-decoration: none;
   padding: 0.5em;
@@ -39,27 +90,58 @@ p a:focus {
   position: relative;
 }
 
-.main-nav::after {
+.site-nav::after {
   position: absolute;
   content: "";
   left: 0;
   right: 0;
   bottom: 0;
   height: 0.25em;
-  background: white;
+  background: currentColor;
   transform-origin: center;
   transform: scale(0);
   transition: all 250ms ease;
 }
 
-.main-nav:focus {
+.site-nav:focus {
   outline: 0;
 }
 
-.main-nav:hover::after,
-.main-nav:focus::after {
+.site-nav:hover::after,
+.site-nav:focus::after {
   transform: scale(1);
 }
+
+.main-header {
+  background: white;
+  color: #212121;
+  font-size: 1.2rem;
+}
+
+.masthead {
+  height: 40vh;
+  background-image: url("../assets/honbu.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.content {
+  max-width: 40rem;
+  margin: auto;
+ }
+
+ .content__section {
+   display: flex;
+   flex-direction: column;
+ }
+
+/* .content > section:nth-child(odd) {
+  background: #e0e0e0;
+}
+
+.content > section:nth-child(even) {
+  background: white;
+} */
 
 /* html {
   font-family: sans-serif;

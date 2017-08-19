@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 
 export default function History() {
   return (
-    <div>
+    <div className="content">
       <h1>History</h1>
     </div>
   )

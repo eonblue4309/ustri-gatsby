@@ -5,7 +5,7 @@ import CallOut from "../components/CallOut"
 
 export default function IndexPage() {
   return (
-    <div>
+    <div className="content">
       <Introduction />
       <CallOuts />
       <WhatIs />
@@ -16,12 +16,12 @@ export default function IndexPage() {
 
 function Introduction() {
   return (
-    <section>
+    <section className="content__section">
       <h1>A Traditional Japanese Sword Drawing Martial Art In Michigan</h1>
 
       <p>The United States Tamiya Ryu Iaijustu Ogranization is an official branch of the Tamiya Ryu Iaijutsu Genwakai and is headquarted in East Lansing, Michigan with a branch dojo located in Macomb, Michigan.</p>
 
-      <p>We are the only official representatives of this 400+ year old koryu art in the United States. Here you will find the <Link to="/history">history of both Tamiya Ryu</Link> and its <Link to="/history">history in the United States</Link> as well as information on <a href="#locations">where to find a dojo location</a> and <Link to="contact">how to join</Link>. We hope to see you on the dojo floor soon!</p>
+      <p>We are the only official representatives of this 400+ year old koryu art in the United States. Here you will find the <Link to="/history">history of both Tamiya Ryu</Link> and its <Link to="/history">history in the United States</Link> as well as information on <a href="/locations">where to find a dojo location</a> and <Link to="contact">how to join</Link>. We hope to see you on the dojo floor soon!</p>
 
       <LearnMore to="training-information" />
     </section>
@@ -30,7 +30,7 @@ function Introduction() {
 
 function CallOuts() {
   return (
-    <section>
+    <section className="content__section">
       <CallOut>
         <h2>USTRI 20th Anniversary Taikai</h2>
 
@@ -56,7 +56,7 @@ function CallOuts() {
 
         <p>Please note that some of the locaiton information in the below video has changed but the information specific to the practice of Tamiya Ryu Iaijutsu remains the same!</p>
 
-        <iframe width="640" height="480" src="https://www.youtube.com/embed/w80xfxDG0jE" frameBorder="0" allowFullScreen></iframe>
+        <iframe width="100%" height="480" src="https://www.youtube.com/embed/w80xfxDG0jE" frameBorder="0" allowFullScreen></iframe>
       </CallOut>
     </section>
   )
@@ -67,19 +67,15 @@ function Locations() {
     <section>
       <h3>Locations</h3>
 
-      <div>
-        <h4>East Lansing, Michigan</h4>
-        <h5>Michigan Honbu Dojo</h5>
+      <CallOut to="east-lansing-michigan-honbu-dojo">
+        <h4>East Lansing, Michigan - Michigan Honbu Dojo</h4>
         <p>The Michigan Honbu dojo is the headquarters for Tamiya Ryu Iajiutsu operations in the United States</p>
-        <LearnMore to="east-lansing-michigan-honbu-dojo" />
-      </div>
+      </CallOut>
 
-      <div>
-        <h4>Macomb, Michigan</h4>
-        <h5>Southeast Michigan Dojo</h5>
+      <CallOut to="southeast-michigan-branch-dojo">
+        <h4>Macomb, Michigan - Southeast Michigan Dojo</h4>
         <p>The Southeast Michigan Branch dojo holds class at the Macomb Township Parks &amp; Recreation Center.</p>
-        <LearnMore to="southeast-michigan-branch-dojo" />
-      </div>
+      </CallOut>
     </section>
   )
 }
@@ -88,7 +84,7 @@ function WhatIs() {
   return (
     <section>
 
-      <div>
+      <div className="content__section">
         <h3>Iaijutsu</h3>
 
         <p>Iaijutsu is a martial art (bujutsu) that strives to supress a sudden attack by the attacker against the defender using a single, swift stroke of the sword and seeks to master the various principles of drawing, re - sheathing and using the sword.</p>
@@ -96,7 +92,7 @@ function WhatIs() {
         <p>Furthermore, iaijutsu is a martial way (budo) as it practiced with a humble and modest heart and continually trains the spirit.</p>
       </div>
 
-      <div>
+      <div className="content__section">
         <h3>Tamiya Ryu</h3>
 
 

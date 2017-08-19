@@ -16,7 +16,7 @@ export default function Contact() {
   const gensui = contacts["Thomas Hufnagel"]
   const genzan = contacts["Dan Mordan"]
   return (
-    <div>
+    <div className="content">
       <h2>Contact</h2>
       <h3>East Lansing, Michigan</h3>
       <p>{`For information regarding practice at the Honbu dojo in East Lansing, Michigan or other organizational inquires, please contact ${gensui.name}`}</p>

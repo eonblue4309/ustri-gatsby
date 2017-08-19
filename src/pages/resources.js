@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 
 export default function Resources() {
   return (
-    <div>
+    <div className="content">
       <h1>Resources</h1>
     </div>
   )
