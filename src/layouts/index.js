@@ -16,7 +16,7 @@ function Header() {
   return (
     <header className="main-header hightlight-text">
       <nav className="main-nav">
-        <Link to="/" className="site-nav">United States Tamiya Ryu Iaijutsu</Link>
+        <Link to="/" className="site-nav site-nav--home">United States Tamiya Ryu Iaijutsu</Link>
         {Object.keys(links).map(link =>
           <Link key={link} to={links[link]} className="site-nav">{link}</Link>
         )}

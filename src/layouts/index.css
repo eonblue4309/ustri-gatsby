@@ -103,6 +103,10 @@ p a:focus {
   transition: all 250ms ease;
 }
 
+.site-nav--home::after {
+  left: 2.5em;  
+}
+
 .site-nav:focus {
   outline: 0;
 }
@@ -110,6 +114,13 @@ p a:focus {
 .site-nav:hover::after,
 .site-nav:focus::after {
   transform: scale(1);
+}
+
+.site-nav--home {
+  background-image: url("../assets/kikyo.gif");
+  padding-left: 3em;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .main-header {
