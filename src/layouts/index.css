@@ -74,12 +74,86 @@ p a:focus {
 
 .main-nav {
   padding: 1rem 0.5rem;
-  display: flex;
-  justify-content: flex-end;
 }
 
-.main-nav > *:first-child {
-  margin-right: auto;
+.main-nav__toggle {
+  border-radius: 50%;
+  height: 2em;
+  width: 2em;
+  font-size: 1.5rem;
+  background: white;
+  border: 4px solid #212121;
+  position: fixed;
+  right: 1em; 
+  bottom: 1em;
+  cursor: pointer;
+}
+
+.main-nav__toggle::after {
+  content: "";
+  position: absolute;
+  width: 1em;
+  height: 0.125em;
+  border-top: 0.375em double #212121;
+  border-bottom: 0.125em solid #212121;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main-nav__links {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  transition: all 450ms ease;
+}
+
+.main-nav__links.hide {
+  transform: translate(100%, 100%) scale(0.5);
+  opacity: 0.5;
+  clip-path: circle(5% at 50% 50%);
+}
+
+.main-nav__links.show {
+  transform: translate(0, 0) scale(1);
+  opacity: 1;
+   clip-path: circle(71% at 50% 50%); 
+}
+
+
+@media (min-width: 820px) {
+  .main-nav {
+    padding: 1rem 0.5rem;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .main-nav > *:first-child {
+    margin-right: auto;
+  }
+
+  .main-nav__toggle {
+    display: none;
+    visibility: none;
+  }
+
+  .main-nav__links {
+    position: static;
+    display: block;
+  }
+
+  .main-nav__links.show,
+  .main-nav__links.hide {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+    clip-path: none;
+  }
 }
 
 .site-nav {
@@ -88,6 +162,7 @@ p a:focus {
   padding: 0.5em;
   display: inline-block;
   position: relative;
+  margin: 0.5em 0;
 }
 
 .site-nav::after {
@@ -123,6 +198,24 @@ p a:focus {
   background-repeat: no-repeat;
 }
 
+.site-nav--close {
+  background: transparent;
+  border: none;
+  font: inherit;
+  cursor: pointer;  
+}
+
+@media (min-width: 820px) {
+  .site-nav--floating {
+    display: none;
+    visibility: none;
+  }
+
+  .site-nav {
+    margin: 0;
+  }
+}
+
 .main-header {
   background: white;
   color: #212121;
@@ -130,10 +223,16 @@ p a:focus {
 }
 
 .masthead {
-  height: 40vh;
+  height: 20vh;
   background-image: url("../assets/honbu.jpg");
   background-size: cover;
   background-position: center;
+}
+
+@media (min-width: 820px) {
+  .masthead {
+    height: 40vh;
+  }
 }
 
 .content {

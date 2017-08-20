@@ -12,19 +12,41 @@ const links = {
   "Contact": "/contact"
 }
 
-function Header() {
-  return (
-    <header className="main-header hightlight-text">
-      <nav className="main-nav">
-        <Link to="/" className="site-nav site-nav--home">United States Tamiya Ryu Iaijutsu</Link>
-        {Object.keys(links).map(link =>
-          <Link key={link} to={links[link]} className="site-nav">{link}</Link>
-        )}
-      </nav>
-      <div className="masthead">
-      </div>
-    </header>
-  )
+class Header extends React.Component {
+  constructor() {
+    super();
+    this.state = { showNav: false }
+    this.toggleNav = this.toggleNav.bind(this);
+    this.hideNav = this.hideNav.bind(this);
+  }
+
+  toggleNav() {
+    this.setState({ showNav: !this.state.showNav });
+  }
+
+  hideNav() {
+    this.setState({ showNav: false });
+  }
+  
+  render() {
+    return (
+      <header className="main-header hightlight-text">
+        <nav className="main-nav">
+          <Link to="/" className="site-nav site-nav--home">United States Tamiya Ryu Iaijutsu</Link>
+          <button className="main-nav__toggle" onClick={this.toggleNav} aria-label="menu"></button> 
+          <div className={`main-nav__links ${this.state.showNav ? "show" : "hide"}`}>
+            <button className="site-nav site-nav--close site-nav--floating" onClick={this.hideNav}>Close</button>
+            <Link to="/" className="site-nav site-nav--floating">Home</Link>
+            {Object.keys(links).map(link =>
+              <Link key={link} to={links[link]} className="site-nav">{link}</Link>
+            )}
+          </div>
+        </nav>
+        <div className="masthead">
+        </div>
+      </header>
+    )
+  }
 }
 
 function TemplateWrapper({ children }) {
