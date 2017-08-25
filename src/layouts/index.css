@@ -236,13 +236,14 @@ p a:focus {
 }
 
 .content {
-  max-width: 40rem;
+  max-width: 41rem;
   margin: auto;
  }
 
  .content__section {
    display: flex;
    flex-direction: column;
+   margin: 0 1em;
  }
 
 /* .content > section:nth-child(odd) {
