@@ -2,6 +2,7 @@
 font-family: 'Oswald', sans-serif; */
 
 html {
+  font-size: 14px;
   font-family: "Merriweather", sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -10,9 +11,9 @@ html {
   color: #212121;
 }
 
-@media screen and (min-width: 500px){
+@media screen and (min-width: 500px) {
   html {
-    font-size: calc(16px + 8 * ((100vw - 500px) / 1500));
+    font-size: calc( 14px + 8 * ((100vw - 500px) / 1500));
   }
 }
 
@@ -27,18 +28,17 @@ h6,
 }
 
 h1 {
-  font-size: 3rem;
-  line-height: 3.25rem;
-  /* TODO scale these down for mobile */
+  font-size: 1.5rem;
+  line-height: 1.75rem;
 }
 
 h2 {
-  font-size: 2rem;
-  line-height: 1.25rem;
+  font-size: 1.35rem;
+  line-height: 1.35rem;
 }
 
 h3 {
-  font-size: 1.75rem;
+  font-size: 1.25rem;
   line-height: 1.25rem;
 }
 
@@ -46,6 +46,18 @@ h4,
 h5 {
   font-size: 1.125rem;
   line-height: 1.222222rem;
+}
+
+@media screen and (min-width: 500px) {
+  h1 {
+    font-size: 2.5rem;
+    line-height: 2.25rem;
+  }
+
+  h2 {
+    font-size: 1.35rem;
+    line-height: 1.25rem;
+  }
 }
 
 body {
@@ -127,7 +139,7 @@ p a:focus {
 }
 
 
-@media (min-width: 820px) {
+@media (min-width: 875px) {
   .main-nav {
     padding: 1rem 0.5rem;
     display: flex;
