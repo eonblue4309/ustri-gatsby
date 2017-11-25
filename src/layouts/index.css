@@ -227,10 +227,21 @@ p a:focus {
   }
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+}
+
 .main-header {
   background: white;
   color: #212121;
   font-size: 1.2rem;
+}
+
+.main-aside,
+.main-footer {
+  background-color: #212121;
+  color: white;
 }
 
 .masthead {

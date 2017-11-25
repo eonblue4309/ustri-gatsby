@@ -31,8 +31,7 @@ function Introduction() {
         <Link to="/history">history of Tamiya Ryu Iaijutsu</Link> and the{' '}
         <Link to="/history">
           history of the United States Tamiya Ryu Iaijutsu Gengo Hojisha no Kai
-        </Link>
-        as well as information on{' '}
+        </Link> as well as information on{' '}
         <a href="/locations">where to find a dojo location</a> and{' '}
         <Link to="contact">how to join</Link>. We hope to see you on the dojo
         floor soon!
