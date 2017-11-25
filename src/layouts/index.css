@@ -3,7 +3,7 @@ font-family: 'Oswald', sans-serif; */
 
 html {
   font-size: 14px;
-  font-family: "Merriweather", sans-serif;
+  font-family: 'Merriweather', sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   font-size: 16px;
@@ -13,7 +13,7 @@ html {
 
 @media screen and (min-width: 500px) {
   html {
-    font-size: calc( 14px + 8 * ((100vw - 500px) / 1500));
+    font-size: calc(14px + 8 * ((100vw - 500px) / 1500));
   }
 }
 
@@ -24,7 +24,7 @@ h4,
 h5,
 h6,
 .hightlight-text {
-  font-family: "Oswald", sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 h1 {
@@ -96,13 +96,13 @@ p a:focus {
   background: white;
   border: 4px solid #212121;
   position: fixed;
-  right: 1em; 
+  right: 1em;
   bottom: 1em;
   cursor: pointer;
 }
 
 .main-nav__toggle::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 1em;
   height: 0.125em;
@@ -135,9 +135,8 @@ p a:focus {
 .main-nav__links.show {
   transform: translate(0, 0) scale(1);
   opacity: 1;
-   clip-path: circle(71% at 50% 50%); 
+  clip-path: circle(71% at 50% 50%);
 }
-
 
 @media (min-width: 875px) {
   .main-nav {
@@ -179,7 +178,7 @@ p a:focus {
 
 .site-nav::after {
   position: absolute;
-  content: "";
+  content: '';
   left: 0;
   right: 0;
   bottom: 0;
@@ -191,7 +190,7 @@ p a:focus {
 }
 
 .site-nav--home::after {
-  left: 2.5em;  
+  left: 2.5em;
 }
 
 .site-nav:focus {
@@ -204,7 +203,7 @@ p a:focus {
 }
 
 .site-nav--home {
-  background-image: url("../assets/kikyo.gif");
+  background-image: url('../assets/kikyo.gif');
   padding-left: 3em;
   background-size: contain;
   background-repeat: no-repeat;
@@ -214,7 +213,7 @@ p a:focus {
   background: transparent;
   border: none;
   font: inherit;
-  cursor: pointer;  
+  cursor: pointer;
 }
 
 @media (min-width: 820px) {
@@ -236,7 +235,7 @@ p a:focus {
 
 .masthead {
   height: 20vh;
-  background-image: url("../assets/honbu.jpg");
+  background-image: url('../assets/honbu.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -250,13 +249,13 @@ p a:focus {
 .content {
   max-width: 41rem;
   margin: auto;
- }
+}
 
- .content__section {
-   display: flex;
-   flex-direction: column;
-   margin: 0 1em;
- }
+.content__section {
+  display: flex;
+  flex-direction: column;
+  margin: 0 1em;
+}
 
 /* .content > section:nth-child(odd) {
   background: #e0e0e0;
