@@ -2,11 +2,13 @@ import React from 'react';
 import Link from 'gatsby-link';
 import LearnMore from '../components/LearnMore';
 import CallOut from '../components/CallOut';
+import Katana from "../components/Katana";
 
 export default function IndexPage() {
   return (
     <div className="content">
       <Introduction />
+      <Katana />
       <CallOuts />
       <WhatIs />
       <Locations />
