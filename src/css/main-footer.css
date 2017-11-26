@@ -1,0 +1,24 @@
+.main-footer {
+  color: white;
+  background: #212121;
+  text-align: center;
+  height: 99vh;
+  padding: 2rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.main-footer > figure {
+  padding: 2rem;
+}
+
+.main-footer > figure > img {
+  width: 100%;
+  max-width: 20rem;
+}
+
+.main-footer > figure > figcaption {
+  margin-top: 2rem;
+}

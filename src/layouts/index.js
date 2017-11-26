@@ -4,6 +4,8 @@ import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 
 import './index.css';
+import '../css/main-footer.css';
+import mon from '../assets/mon.svg';
 
 const links = {
   'Training Information': '/training-information',
@@ -65,17 +67,19 @@ class Header extends React.Component {
   }
 }
 
-function Aside() {
-  return (
-    <aside className="main-aside">
-      <h2>United Status Tamiya Ryu Iaijutsu</h2>
-    </aside>
-  );
-}
-
 function Footer() {
   return (
     <footer className="main-footer">
+      <figure>
+        <img
+          src={mon}
+          alt="A styled bell or ballon flower. Platycodon grandiflorus."
+        />
+        <figcaption>
+          The traditional crest of the Tsumaki family, used by USTRI with
+          permission.
+        </figcaption>
+      </figure>
       <p>Site by James Russell (Gennetsu)</p>
     </footer>
   );
@@ -101,7 +105,6 @@ function TemplateWrapper({children}) {
       />
       <Header />
       {children()}
-      <Aside />
       <Footer />
     </main>
   );

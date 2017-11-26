@@ -67,6 +67,7 @@ body {
 
 p {
   max-width: 40em;
+  margin: 1em auto;
 }
 
 p a {
@@ -236,12 +237,6 @@ main {
   background: white;
   color: #212121;
   font-size: 1.2rem;
-}
-
-.main-aside,
-.main-footer {
-  background-color: #212121;
-  color: white;
 }
 
 .masthead {
